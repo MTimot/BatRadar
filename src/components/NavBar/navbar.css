@@ -1,0 +1,20 @@
+.batlogocontainer {
+	height: 180px;
+}
+.batlogo {
+	height: 100%;
+}
+.batul {
+	border-top: grey solid 2px;
+	margin-top: 32px;
+	padding-top: 32px;
+	display: flex;
+	list-style: none;
+	gap: 10rem;
+	font-size: 1.5rem;
+	justify-content: center;
+	color: #f3cb11;
+}
+h1 {
+	color: #f3cb11;
+}
