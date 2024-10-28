@@ -34,5 +34,5 @@ function Cards({ vilains }) {
 	);
 }
 
-// {changeImage ? (bad.name === "Mr Freezer") : (<img src="https://www.valgourmand.com/36910-superlarge_default/mr-freeze-cool-pop-classic.jpg" alt=" sskjkjk"
+
 export default Cards;
