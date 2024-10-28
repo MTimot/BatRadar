@@ -1,0 +1,14 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	border-top: 2px grey solid;
+}
+.footer p {
+	display: inline;
+	color: #f3cb11;
+}
+.marvel {
+	text-decoration: line-through;
+	display: inline;
+}
