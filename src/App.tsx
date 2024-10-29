@@ -49,7 +49,7 @@ const vilains = [
 	{
 		name: "L'Epouventail",
 		image:
-			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOulWaEZSSyBjh5uFg86lPi9OwIjy4prmA6Q&s",
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrYUwO1tDAey6J0AEyF3-essRdOtOcwXadZQ&s",
 		atout: "Substances hallucinogènes",
 		id: 7,
 	},
