@@ -27,7 +27,7 @@ a {
 	color: #f3cb11;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (max-width: 650px) {
 	.videojournal {
 		height: auto;
 		width: 100%;
