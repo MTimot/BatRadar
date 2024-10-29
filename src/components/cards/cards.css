@@ -34,7 +34,7 @@ border-radius: 15px;
 	justify-self: center;
 }
 
-@media screen and (min-width: 650px) {	
+@media screen and (max-width: 650px) {	
 	.container {
 		display: block;
 	}
