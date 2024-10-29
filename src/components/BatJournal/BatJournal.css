@@ -26,6 +26,15 @@ a {
 	text-decoration: none;
 	color: #f3cb11;
 }
+.batdate {
+	text-align: start;
+	margin-left: 70px;
+}
+
+p {
+	color: #f3cb11;
+	margin: 16px;
+}
 
 @media screen and (max-width: 650px) {
 	.videojournal {
