@@ -9,11 +9,9 @@
 }
 
 .imgCards {
-  height: 330px;
-  width: 420px;
-	height: 330px;
-	width: 420px;
-	border-radius: 15px;
+  height: 60%;
+  width: 98%;
+border-radius: 15px;
 }
 
 .titleName {
@@ -34,4 +32,16 @@
 	flex-direction: row;
 	width: 80%;
 	justify-self: center;
+}
+
+@media screen and (max-width: 650px) {	
+	.container {
+		display: block;
+	}
+
+	.cards {
+		height: 600px;
+		width: 500px;
+	}
+
 }

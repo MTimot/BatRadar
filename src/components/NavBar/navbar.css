@@ -51,3 +51,15 @@ li:hover {
 li {
 	padding: 20px;
 }
+
+@media screen and (max-width: 650px) {
+	.batlogocontainer,
+	h1 {
+		display: flex;
+		justify-content: center;
+	}
+
+	.batul {
+		gap: 0rem;
+	}
+}

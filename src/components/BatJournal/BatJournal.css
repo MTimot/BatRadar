@@ -35,3 +35,22 @@ p {
 	color: #f3cb11;
 	margin: 16px;
 }
+
+@media screen and (max-width: 650px) {
+	.videojournal {
+		height: auto;
+		width: 100%;
+	}
+
+	.batjournal {
+		top: -393px;
+		height: 383px;
+		left: 0;
+		width: 100%;
+		overflow: scroll;
+	}
+
+	button {
+		padding: 20px;
+	}
+}
