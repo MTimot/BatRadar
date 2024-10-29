@@ -14,7 +14,9 @@ function NavBar() {
 				<ul className="batul">
 					<li>Bat-radar</li>
 					<li>Bat-contact</li>
-					<a href="#batjournal"><li>Bat-journal intime</li></a>
+					<a href="#batvid">
+						<li>Bat-journal intime</li>
+					</a>
 				</ul>
 			</nav>
 		</>
