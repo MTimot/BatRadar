@@ -30,6 +30,7 @@ h1 {
 	color: #f3cb11;
 }
 
+
 .rotate-animation {
 	animation: spin 2s linear infinite;
   }
@@ -43,3 +44,12 @@ h1 {
 	}
   }
   
+=======
+li:hover {
+	border: #f3cb11 4px solid;
+	border-radius: 20px;
+}
+li {
+	padding: 20px;
+}
+
