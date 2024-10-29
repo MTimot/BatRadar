@@ -53,3 +53,18 @@ li {
 	padding: 20px;
 }
 
+
+  
+@media screen and (min-width: 650px) {	
+	.batlogocontainer, 
+	h1 {
+		display: flex;
+		justify-content: center;
+	}
+
+	.batul {
+		gap: 0rem;
+	}
+
+}
+

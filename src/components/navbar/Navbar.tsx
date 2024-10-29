@@ -12,6 +12,7 @@ function NavBar() {
 			</div>
 			<nav>
 				<ul className="batul">
+					
 					<li>Bat-radar</li>
 					<li>Bat-contact</li>
 					<a href="#batvid">
