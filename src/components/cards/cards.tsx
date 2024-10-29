@@ -1,9 +1,8 @@
 import "./cards.css";
 
-
 function Cards({ vilains }) {
 	const handleChangeImg = (e, bad) => {
-		if (bad.name === "Mr Freezer") {
+		if (bad.name === "Mr Freeze") {
 			e.currentTarget.src =
 				"https://www.valgourmand.com/36910-superlarge_default/mr-freeze-cool-pop-classic.jpg";
 		}
@@ -33,6 +32,5 @@ function Cards({ vilains }) {
 		</>
 	);
 }
-
 
 export default Cards;

@@ -7,12 +7,13 @@
 }
 
 @keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-20px);
+	}
 }
 
 .batul {
@@ -30,21 +31,19 @@ h1 {
 	color: #f3cb11;
 }
 
-
 .rotate-animation {
 	animation: spin 2s linear infinite;
-  }
-  
-  @keyframes spin {
+}
+
+@keyframes spin {
 	from {
-	  transform: rotate(0deg);
+		transform: rotate(0deg);
 	}
 	to {
-	  transform: rotate(360deg);
+		transform: rotate(360deg);
 	}
-  }
-  
-=======
+}
+
 li:hover {
 	border: #f3cb11 4px solid;
 	border-radius: 20px;
@@ -52,4 +51,3 @@ li:hover {
 li {
 	padding: 20px;
 }
-

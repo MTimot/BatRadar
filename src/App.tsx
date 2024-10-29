@@ -33,7 +33,7 @@ const vilains = [
 		id: 4,
 	},
 	{
-		name: "Mr Freezer",
+		name: "Mr Freeze",
 		image:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3IP1UcBMQjnmzV3IUnfz_9sTD1dU-hrubQ&s",
 		atout: "Congélateur ambulant",
