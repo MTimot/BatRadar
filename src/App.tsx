@@ -3,6 +3,12 @@ import NavBar from "./components/NavBar/NavBar.tsx";
 import Footer from "./components/Footer/footer.tsx";
 import BatJournal from "./components/BatJournal/BatJournal.tsx";
 import Cards from "./components/cards/cards";
+import Home from "./pages/Home.tsx";
+import Journal from "./pages/Journal.tsx";
+import { useState } from "react";
+
+
+
 const vilains = [
 	{
 		name: "Joker",
@@ -62,12 +68,28 @@ const vilains = [
 	},
 ];
 function App() {
+	const [currentLocation, setCurrentLocation] = useState("/");
 	return (
 		<>
+
 			<NavBar />
 			<Cards vilains={vilains} />
 			<BatJournal />
-			<Footer />
+		
+		<div>
+        <button onClick={() => setCurrentLocation("/")} type="button">
+        Home
+        </button>
+        <button onClick={() => setCurrentLocation("/Journal")} type="button">
+        Journal
+        </button>
+      </div>
+      <main>
+        {currentLocation === "/" && <Home />}
+        {currentLocation === "/Journal" && <Journal />}
+      </main>
+	  <Footer />
+
 		</>
 	);
 }
