@@ -6,6 +6,8 @@ import Cards from "./components/cards/cards";
 import { useState } from "react";
 import Home from "./pages/home.tsx";
 import Journal from "./pages/Journal.tsx";
+import Article from "./pages/Article.tsx";
+import { Link, Outlet } from "react-router-dom";
 
 const vilains = [
 	{
@@ -67,20 +69,18 @@ const vilains = [
 ];
 function App() {
 	const [currentLocation, setCurrentLocation] = useState("/");
-	
+
 	return (
 		<>
 			<div>
-				<button onClick={() => setCurrentLocation("/")} type="button">
-					Home
-				</button>
-				<button onClick={() => setCurrentLocation("/Journal")} type="button">
-					Journal
-				</button>
+				<Link to="/">Home</Link>
+				<Link to="/Journal">Journal</Link>
+				<Link to="/articles/1">Article 1</Link>
+				<Link to="/articles/2">Article 2</Link>
+				<Link to="/articles/3">Article 3</Link>
 			</div>
 			<main>
-				{currentLocation === "/" && <Home />}
-				{currentLocation === "/Journal" && <Journal />}
+				<Outlet />
 			</main>
 			<NavBar />
 			<Cards vilains={vilains} />
